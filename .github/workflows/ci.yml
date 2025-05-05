@@ -36,9 +36,7 @@ jobs:
           distribution: 'temurin'
 
       - name: ⚙️ Build Spring Boot backend
-        run: |
-          cd bugtracker
-          ./mvnw clean install -DskipTests=true
+        run: ./mvnw clean install -DskipTests=true
 
       - name: 🧱 Set up Node.js
         uses: actions/setup-node@v3
@@ -47,6 +45,6 @@ jobs:
 
       - name: 🧪 Install & test React frontend
         run: |
-          cd bugtracker/frontend
+          cd frontend
           npm install
           npm test
