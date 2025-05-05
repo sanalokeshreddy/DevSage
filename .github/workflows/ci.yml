@@ -36,7 +36,9 @@ jobs:
           distribution: 'temurin'
 
       - name: ⚙️ Build Spring Boot backend
-        run: ./mvnw clean install -DskipTests=true
+        run:
+            chmod +x mvnw
+            ./mvnw clean install -DskipTests=true
 
       - name: 🧱 Set up Node.js
         uses: actions/setup-node@v3
