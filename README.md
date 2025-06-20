@@ -36,27 +36,38 @@ DevSage/
 ├── docs/ # Documentation (optional)
 └── README.md # Project ReadMe file
 
+
 ## ⚙️ Local Setup Instructions
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/sanalokeshreddy/DevSage.git
-   cd DevSage
-Start the Frontend
-cd frontend
-npm install
-npm start
-Start the Backend
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/sanalokeshreddy/DevSage.git](https://github.com/sanalokeshreddy/DevSage.git)
+    cd DevSage
+    ```
 
-cd ../backend
-# Use your preferred IDE (e.g., IntelliJ) or run via Maven
-./mvnw spring-boot:run
+2.  **Start the Frontend**
+    ```bash
+    cd frontend
+    npm install
+    npm start
+    ```
 
-👨‍💻 Author
-Sana Lokesh Reddy
-📧 Email:sanalokeshreddy@gmail.com
-🔗 GitHub: @sanalokeshreddy
+3.  **Start the Backend**
+    ```bash
+    cd ../backend
+    # Use your preferred IDE (e.g., IntelliJ) or run via Maven
+    ./mvnw spring-boot:run
+    ```
 
-🤝 Contributions
-Contributions, issues, and feature requests are welcome!
-Feel free to check the issues page or fork the repository and open a pull request.
+---
+
+## 👨‍💻 Author
+
+**Sana Lokesh Reddy** 📧 [sanalokeshreddy@gmail.com](mailto:sanalokeshreddy@gmail.com)  
+🐙 GitHub: [@sanalokeshreddy](https://github.com/sanalokeshreddy)
+
+---
+
+## 🤝 Contributions
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/sanalokeshreddy/DevSage/issues) or fork the repository and open a pull request.
