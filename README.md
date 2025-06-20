@@ -28,8 +28,12 @@ Built with **React**, **Tailwind CSS**, and **Spring Boot**, DevSage integrates 
 
 ---
 
-<pre lang="markdown"><code>## 📁 Project Structure ``` DevSage/ ├── frontend/ # React app with Tailwind CSS ├── backend/ # Spring Boot APIs and AI integration ├── docs/ # Documentation (optional) └── README.md # Project ReadMe file ``` </code></pre>
-
+📁 Project Structure
+DevSage/
+├── frontend/          # React app with Tailwind CSS
+├── backend/           # Spring Boot APIs and AI integration
+├── docs/              # Documentation (optional)
+└── README.md          # Project ReadMe file
 
 ## ⚙️ Local Setup Instructions
 
